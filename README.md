@@ -1,6 +1,6 @@
 # Garbage
 
-Speak & schedule midi with Clojure through OsMidi && stealing SonicPis Erlang midi scheduler.
+Schedule midi events with Clojure. Hopefully making some nice noises.
 
 ```
 ==^==
@@ -9,7 +9,7 @@ Speak & schedule midi with Clojure through OsMidi && stealing SonicPis Erlang mi
 '---'
 ```
 
-#### Why?
+### Why?
 
 * Java's Native midi is terrible, use c++ and JUCE instead.
 * No garbage collection pauses, ERLANG does the scheduling.
