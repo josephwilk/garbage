@@ -1,5 +1,7 @@
 # Garbage
 
+Speak & schedule midi with Clojure through OsMidi && stealing SonicPis Erlang midi scheduler.
+
 ```
 ==^==
 |[[[|
