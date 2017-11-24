@@ -39,5 +39,5 @@ erl -pz "/usr/josephwilk/stuff/sonic-pi/app/server/erlang" -s pi_server start 45
 Via a repl:
 
 ```clojure
-(midi 52 {:port 1, :channel :iac_bus, sustain: 2})
+(midi 52 {:port 1, :channel :iac_bus, :sustain 2})
 ```
