@@ -1,9 +1,20 @@
 # Garbage
 
+## Install
+
+* `brew install erlang`
+
+* git clone git@github.com:llloret/osmid.git (OSMid https://github.com/llloret/osmid)
+`cmake . && make`
+
+* git clone git@github.com:samaaron/sonic-pi.git (SonicPi's Erlang server - https://github.com/samaaron/sonic-pi)
+
+## Running
+
 ```shell
 #Have to use absolute paths
-/Users/josephwilk/Workspace/josephwilk/c++/sonic-pi/app/server/native/osx/osmid/o2m -b -i 4561 -O 4562 -m 6
-erl -pz "/Users/josephwilk/Workspace/josephwilk/c++/sonic-pi/app/server/erlang" -s pi_server start 4560
+/<install path>/osmid/o2m -b -i 4561 -O 4562 -m 6
+erl -pz "/<install path>/sonic-pi/app/server/erlang" -s pi_server start 4560
 ```
 
 ```clojure
