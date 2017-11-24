@@ -19,6 +19,7 @@ Speak & schedule midi with Clojure through OsMidi && stealing SonicPis Erlang mi
 
 * The more sensible thing would be to just use SonicPi. 
 * I'm not sure I have the will power to write a virtual scheduler to do timing properly just so I can write Clojure instead of Ruby.
+* Theres a hint in the name.
 
 ## Install
 
