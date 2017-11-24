@@ -1,5 +1,12 @@
 # Garbage
 
+```
+==^==
+|[[[|
+|[[[|
+'---'
+```
+
 ## Install
 
 * `brew install erlang`
