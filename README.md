@@ -12,14 +12,9 @@ Speak & schedule midi with Clojure through OsMidi && stealing SonicPis Erlang mi
 #### Why?
 
 * Java's midi is terrible, use c++ and JUCE instead.
+* No garbage collection pauses, ERLANG does the scheduling.
 * Erlang is fab at schedulling and the scheduler is written by Joe Armstrong (one of the creators of Erlang).
 * Clojure makes me happy.
-
-#### Why not?
-
-* The more sensible thing would be to just use SonicPi. 
-* I'm not sure I have the will power to write a virtual scheduler to do timing properly just so I can write Clojure instead of Ruby.
-* Theres a hint in the name.
 
 ## Install
 
